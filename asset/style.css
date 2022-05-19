@@ -115,22 +115,16 @@ p{
     background-color: blue;
     padding: 4px 10px;
     color: white;
-    outline: blue 1px solid;
+    border: none;
     font-size: 18px;
     margin-top: 50px;
+    outline: none;
 }
 
 .see-more{
     display: inline;
 }
 
-.explain{
-    display: none;
-}
-
-.see-more:hover > .input1 + .explain{
-    display: block;
-}
 
 .label input[ type="checkbox"]{
     -webkit-appearance: none;
